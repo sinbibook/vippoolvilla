@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.0.0",
-    "generatedAt": "2026-11-09T09:36:58.899060790Z",
+    "version": "1.1.0",
+    "generatedAt": "2026-11-09T09:49:59.481524493Z",
     "templateType": "trip_i",
     "propertyId": "3ad8561a-81f7-4248-81f5-afcc55d01ce2",
     "homepageId": "01a1bf65-a033-7c3d-ba23-7ecc8512a959"
@@ -525,136 +525,6 @@
             "id": "01a1b9de-ba0b-71dc-99e0-abe2bcd283aa",
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc8-717a-a6a5-6bba487f06f0/main/1794119743518-cmidj5wu55.jpg",
             "sortOrder": 10,
-            "description": "special_card",
-            "isSelected": true,
-            "blockId": null
-          }
-        ]
-      },
-      {
-        "id": "01a1b9de-9cc8-7a5a-a18b-a72ae5cf1117",
-        "name": "부대시설",
-        "description": "더욱 편리하고 즐거운 여행을 위해\n다양한 서비스를 제공합니다.",
-        "usageGuide": "",
-        "displayOrder": 7,
-        "images": [
-          {
-            "id": "01a1b9de-b0e7-7b2d-b377-f1b0fe79ec09",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc8-7a5a-a18b-a72ae5cf1117/main/1794119741234-3anpnvw710.jpg",
-            "sortOrder": 0,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-b34e-7cc7-8485-05ebada780a5",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc8-7a5a-a18b-a72ae5cf1117/main/1794119741730-gviy1jq3n8.jpg",
-            "sortOrder": 1,
-            "description": "special_card",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-b0a7-70ea-bd1e-2e3afaa3bc2b",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc8-7a5a-a18b-a72ae5cf1117/main/1794119741335-xwjbmx33kw.webp",
-            "sortOrder": 2,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-b14f-7cc7-8d60-a5fa5ff3088d",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc8-7a5a-a18b-a72ae5cf1117/main/1794119741358-6xsoa95zz5.webp",
-            "sortOrder": 3,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-b27e-7ec1-907d-9ae24831e444",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc8-7a5a-a18b-a72ae5cf1117/main/1794119741547-seyni1qv4m.webp",
-            "sortOrder": 4,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-b260-71d9-94f8-2ace55dcda85",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc8-7a5a-a18b-a72ae5cf1117/main/1794119741592-1pmtxs92jc.webp",
-            "sortOrder": 5,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-b49b-79d2-83dd-0611d50d6b27",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc8-7a5a-a18b-a72ae5cf1117/main/1794119741661-p4jn2w9jz6.webp",
-            "sortOrder": 6,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          }
-        ]
-      },
-      {
-        "id": "01a1b9de-9cc9-70b7-b9a6-0c5c59c7a537",
-        "name": "편의 및 주변 시설",
-        "description": "가평 남이섬 더VIP풀빌라에서\n시원한 레저 물놀이를 즐겨보세요.",
-        "usageGuide": "",
-        "displayOrder": 8,
-        "images": [
-          {
-            "id": "01a1b9de-ad73-7221-84d9-fb857fdf2a5d",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc9-70b7-b9a6-0c5c59c7a537/main/1794119740453-22hc0vnmge.jpg",
-            "sortOrder": 0,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-ae67-7f1c-9e60-8e8cbdc1b963",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc9-70b7-b9a6-0c5c59c7a537/main/1794119740585-7qoz7r0uq4.jpg",
-            "sortOrder": 1,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-af7f-78b5-bee0-e4724ee32fd9",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc9-70b7-b9a6-0c5c59c7a537/main/1794119740615-u5j9ki0l39.jpg",
-            "sortOrder": 2,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-af67-7098-9890-3a153d6e289a",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc9-70b7-b9a6-0c5c59c7a537/main/1794119740887-emlj8c8wuv.jpg",
-            "sortOrder": 3,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-b031-7d5b-80e4-0f83d6921578",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc9-70b7-b9a6-0c5c59c7a537/main/1794119740900-vtagfznhrr.jpg",
-            "sortOrder": 4,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-b05e-731f-ba48-bf9fad8b559e",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc9-70b7-b9a6-0c5c59c7a537/main/1794119741131-gra0h6w8c9.jpg",
-            "sortOrder": 5,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a1b9de-b209-7c23-aa26-8d455c1fe6ab",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a1b9de-9cc9-70b7-b9a6-0c5c59c7a537/main/1794119741170-r4r7ib77aq.jpg",
-            "sortOrder": 6,
             "description": "special_card",
             "isSelected": true,
             "blockId": null
