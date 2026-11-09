@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      html.tpl-loading body {
+        opacity: 0;
+      }
+      body {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.add('tpl-loading');
+      window.__tplReveal = function () {
+        document.documentElement.classList.remove('tpl-loading');
+      };
+      setTimeout(function () {
+        window.__tplReveal && window.__tplReveal();
+      }, 3000);
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <title data-page-title>가평 남이섬 더VIP풀빌라 - 예약안내</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" type="text/css" href="styles/theme.css" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/popup.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="가평 남이섬 더VIP풀빌라 - 예약안내" />
+  <meta property="og:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta property="og:url" content="https://vippoolvilla.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="가평 남이섬 더VIP풀빌라 - 예약안내" />
+  <meta name="twitter:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta name="naver-site-verification" content="464cdc551aa2c483696e577a5351478450e281f4" />
+  <meta name="google-site-verification" content="pmOUDndJK3_7doOSTwl-WRJtJ4mlPXEUvY9OvMMrHKk" />
+</head>
+
+  <body oncontextmenu="return false;" onselectstart="return false" ondragstart="return false;">
+    <div id="wrap">
+      <div id="header-wrap"></div>
+
+      <div id="container">
+        <section id="content" class="sub4_1 sub_reserve">
+          <div class="sub_visual_wide" data-reservation-hero>
+            <div class="sub_location_wrap">
+              <h3>RESERVE</h3>
+              <p data-reservation-hero-description></p>
+              <ul class="location_box">
+                <li>홈</li>
+                <li>RESERVE</li>
+                <li><a href="./reservation.html">이용안내</a></li>
+              </ul>
+              <ul class="cate_box">
+                <li><a href="#!" target="_blank" data-booking-link>예약하기</a></li>
+                <li class="on"><a href="./reservation.html">이용안내</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="sub_cont inner">
+            <!-- 원본은 dt(제목) + dd(사진 + 본문)를 두 벌 쓴다.
+                 사진 위 라벨은 CSS 가 넣는다 — .info_box dd .img:after 가 `펜션정보`,
+                 :nth-of-type(2) 가 `환불정보`. 그래서 dd 순서를 바꾸면 안 된다. -->
+            <dl class="info_box">
+              <dt class="sub_title_box"><h4>INFORMATION</h4></dt>
+              <dd>
+                <div class="img" data-reservation-info-image></div>
+                <p data-reservation-info-body></p>
+              </dd>
+              <dt class="sub_title_box"><h4>REFUND INFO</h4></dt>
+              <dd>
+                <div class="img" data-reservation-refund-image></div>
+                <p data-reservation-refund-body></p>
+              </dd>
+            </dl>
+          </div>
+          <!--// sub_cont -->
+        </section>
+      </div>
+      <!--// container -->
+
+      <div id="footer-wrap"></div>
+    </div>
+
+    <div id="popup-container"></div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/image-helpers.js"></script>
+    <script src="js/preview-handler.js"></script>
+    <script src="js/data-mapper/core/base-mapper.js"></script>
+    <script src="js/data-mapper/pages/header-footer-mapper.js"></script>
+    <script src="js/data-mapper/pages/reservation-mapper.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/popup.js"></script>
+  </body>
+</html>

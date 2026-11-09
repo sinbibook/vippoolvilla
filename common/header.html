@@ -1,0 +1,166 @@
+<header id="header" class="header">
+  <div class="hd_cont">
+    <div class="hd_inner">
+      <div class="logo">
+        <a href="./index.html">
+          <img src="data:," alt="" data-logo-image />
+          <span class="logo_text tpl-slot" data-property-name-en></span>
+          <span class="logo_sub" data-property-name></span>
+        </a>
+      </div>
+      <div class="logo2">
+        <a href="./index.html">
+          <img src="data:," alt="" data-logo-image />
+          <span class="logo_text tpl-slot" data-property-name-en></span>
+          <span class="logo_sub" data-property-name></span>
+        </a>
+      </div>
+
+      <div class="hd_lnb" id="hd_lnb">
+        <ul class="hd_lnb01">
+          <li class="depth1">
+            <a href="./main.html" class="depth1_a">ABOUT</a>
+            <ul class="depth_box">
+              <li><a href="./main.html">펜션소개</a></li>
+            </ul>
+          </li>
+          <li class="depth1">
+            <a href="./layout-map.html" class="depth1_a" data-rooms-link>ROOMS</a>
+            <ul class="depth_box" data-rooms-submenu>
+              <li><a href="./layout-map.html" data-menu-id="layout-map">미리보기</a></li>
+            </ul>
+          </li>
+          <li class="depth1">
+            <a href="./facility.html" class="depth1_a">SPECIAL</a>
+            <ul class="depth_box" data-special-submenu></ul>
+          </li>
+        </ul>
+
+        <ul class="hd_lnb02">
+          <li class="depth1">
+            <a href="#!" class="depth1_a" target="_blank" data-booking-link>RESERVE</a>
+            <ul class="depth_box">
+              <li><a href="#!" target="_blank" data-booking-link>예약하기</a></li>
+              <li><a href="./reservation.html">이용안내</a></li>
+            </ul>
+          </li>
+          <li class="depth1" data-travel-menu>
+            <a href="./nearby-attractions.html" class="depth1_a">TRAVEL</a>
+            <ul class="depth_box">
+              <li>
+                <a href="./nearby-attractions.html" data-menu-id="nearby-attractions">주변여행지</a>
+              </li>
+            </ul>
+          </li>
+          <li class="depth1">
+            <a href="./directions.html" class="depth1_a">LOCATION</a>
+            <ul class="depth_box">
+              <li><a href="./directions.html">오시는길</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--// hd_lnb -->
+
+      <div class="btn_hd_res"><a href="#!" target="_blank" data-booking-link>예약하기</a></div>
+      <!-- data-* 속성 : data-homepage-socialLinks-blog (homepage.socialLinks.blog)
+                         data-homepage-socialLinks-instagram (homepage.socialLinks.instagram)
+           네이버예약 — 원본(브리앙뜨)처럼 예약하기 옆 글자 버튼.
+           인스타그램 — 원본에는 없어 네이버예약과 같은 글자 버튼으로 그 오른쪽에 둔다.
+           값이 없으면 data-social-wrap 째 숨김. 매핑 전 깜빡임이 없도록 기본은 숨김(style),
+           값이 있으면 매퍼가 풀어 준다. -->
+      <div class="btn_hd_res naver" data-social-wrap style="display: none">
+        <a href="#!" target="_blank" rel="noopener" data-homepage-socialLinks-blog>네이버예약</a>
+      </div>
+      <div class="btn_hd_res insta" data-social-wrap style="display: none">
+        <a href="#!" target="_blank" rel="noopener" data-homepage-socialLinks-instagram>
+          인스타그램
+        </a>
+      </div>
+      <!-- data-* 속성 : data-ybs-button / data-ybs-wrap (property.ybsId)
+           원본(thehaebeach.co.kr)처럼 예약하기 줄 맨 오른쪽 글자 버튼. 푸터 사업자정보 줄의
+           「야놀자 YBS」와 같은 링크다. 값이 없으면 숨김(기본 숨김, 값이 있으면 매퍼가 푼다). -->
+      <div class="btn_hd_res ybs" data-ybs-wrap style="display: none">
+        <a href="#!" target="_blank" data-ybs-button>YBS</a>
+      </div>
+      <a href="#" class="btn_menu" aria-label="메뉴 열기">
+        <img src="images/common/menu_btn2.png" alt="" />
+      </a>
+    </div>
+  </div>
+  <!--// hd_cont -->
+
+  <div class="hd_lnb_bg"></div>
+
+  <div class="aside">
+    <!-- 원본처럼 .aside 직속으로 둬 패널 왼쪽 어두운 여백(화면 좌상단)에 놓는다.
+         원본은 position:absolute 라 스크롤하면 문서 좌상단에 남았고, 예전에는 패널 안으로
+         옮겨 고쳤더니 첫 메뉴(ABOUT)와 겹쳤다. style.css 에서 position:fixed 로 화면에 고정한다.
+         (.aisde_inner 는 overflow-y:auto 라 그 안에서 패널 밖으로 빼면 잘린다) -->
+    <a
+      href="#"
+      class="btn_close"
+      aria-label="닫기"
+      style="background-image: url(images/common/close.png)"
+    ></a>
+    <div class="aisde_inner">
+      <div class="aside_box">
+        <div class="depth1">ABOUT</div>
+        <ul class="depth_list">
+          <li><a href="./main.html">펜션소개</a></li>
+        </ul>
+
+        <div class="depth1">ROOMS</div>
+        <ul class="depth_list" data-rooms-submenu>
+          <li><a href="./layout-map.html" data-menu-id="layout-map">미리보기</a></li>
+        </ul>
+
+        <div class="depth1">SPECIAL</div>
+        <ul class="depth_list" data-special-submenu></ul>
+
+        <div class="depth1">RESERVE</div>
+        <ul class="depth_list">
+          <li><a href="#!" target="_blank" data-booking-link>예약하기</a></li>
+          <li><a href="./reservation.html">이용안내</a></li>
+        </ul>
+
+        <div class="depth1" data-travel-menu>TRAVEL</div>
+        <ul class="depth_list" data-travel-menu>
+          <li>
+            <a href="./nearby-attractions.html" data-menu-id="nearby-attractions">주변여행지</a>
+          </li>
+        </ul>
+
+        <div class="depth1">LOCATION</div>
+        <ul class="depth_list">
+          <li><a href="./directions.html">오시는길</a></li>
+        </ul>
+
+        <!-- 원본은 이 버튼이 ./reservation.html(이용안내)로 가 있었다.
+             모바일 패널의 유일한 예약 CTA 라 실시간 예약 링크로 바로잡는다. -->
+        <div class="btn_aside_res">
+          <a href="#!" target="_blank" data-booking-link>예약하기</a>
+        </div>
+        <!-- data-* 속성 : data-homepage-socialLinks-blog (homepage.socialLinks.blog)
+                           data-homepage-socialLinks-instagram (homepage.socialLinks.instagram)
+             네이버예약 — 원본처럼 예약하기 아래 같은 버튼. 인스타그램 — 원본에 없어 같은 버튼으로 그 아래.
+             값이 없으면 data-social-wrap 째 숨김. -->
+        <div class="btn_aside_res" data-social-wrap style="display: none">
+          <a href="#!" target="_blank" rel="noopener" data-homepage-socialLinks-blog>네이버예약</a>
+        </div>
+        <div class="btn_aside_res" data-social-wrap style="display: none">
+          <a href="#!" target="_blank" rel="noopener" data-homepage-socialLinks-instagram>
+            인스타그램
+          </a>
+        </div>
+        <!-- data-* 속성 : data-ybs-button / data-ybs-wrap (property.ybsId)
+             모바일에서는 헤더 버튼이 숨으므로 원본(thehaebeach.co.kr)처럼 aside 에 같은 버튼을 둔다. -->
+        <div class="btn_aside_res" data-ybs-wrap style="display: none">
+          <a href="#!" target="_blank" data-ybs-button>YBS</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--// aside -->
+  <div class="aside_bg"></div>
+</header>

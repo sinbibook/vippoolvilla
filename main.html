@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      html.tpl-loading body {
+        opacity: 0;
+      }
+      body {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.add('tpl-loading');
+      window.__tplReveal = function () {
+        document.documentElement.classList.remove('tpl-loading');
+      };
+      setTimeout(function () {
+        window.__tplReveal && window.__tplReveal();
+      }, 3000);
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <title data-page-title>가평 남이섬 더VIP풀빌라 - 숙소소개</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" type="text/css" href="styles/theme.css" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/popup.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="가평 남이섬 더VIP풀빌라 - 숙소소개" />
+  <meta property="og:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta property="og:url" content="https://vippoolvilla.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="가평 남이섬 더VIP풀빌라 - 숙소소개" />
+  <meta name="twitter:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta name="naver-site-verification" content="464cdc551aa2c483696e577a5351478450e281f4" />
+  <meta name="google-site-verification" content="pmOUDndJK3_7doOSTwl-WRJtJ4mlPXEUvY9OvMMrHKk" />
+</head>
+
+  <body oncontextmenu="return false;" onselectstart="return false" ondragstart="return false;">
+    <div id="wrap">
+      <div id="header-wrap"></div>
+
+      <div id="container">
+        <!-- 원본 about.html(sub1_1) + view.html(sub1_2) 을 한 페이지로 병합했다.
+             히어로는 view.html 쪽(슬라이더)을 쓰고 본문은 about.html 쪽을 쓴다.
+             about.html 의 히어로는 정지 이미지 한 장(.sub_visual_wide)이라 버렸다. -->
+        <section id="content" class="sub1_1 sub_about">
+          <!-- ── 히어로 (원본 view.html .sub_visual) ──────────── -->
+          <div class="sub_visual">
+            <div class="sub_location_wrap">
+              <em data-property-name-en></em>
+              <!-- 원본은 `LANDSCAPE` 였다. 두 페이지를 병합해 페이지 정체가
+                   `펜션소개` 가 되었으므로 헤더 메뉴·서브 제목과 맞춘다. -->
+              <h3>ABOUT</h3>
+              <p data-main-hero-lead></p>
+              <!-- 원본의 탭(.cate_box: 펜션소개 | 외경보기)은 뺐다.
+                   두 페이지를 합쳐 항목이 하나뿐이라 탭이 성립하지 않는다. -->
+            </div>
+            <div class="arw_box">
+              <div
+                class="swiper-button-prev"
+                style="
+                  background: url(images/common/left_btn.png) no-repeat 100%;
+                  background-size: auto 100%;
+                "
+              >
+                prev
+              </div>
+              <div
+                class="swiper-button-next"
+                style="
+                  background: url(images/common/right_btn.png) no-repeat 100%;
+                  background-size: auto 100%;
+                "
+              >
+                next
+              </div>
+            </div>
+            <div class="visual_box">
+              <div class="swiper-container">
+                <div class="swiper-wrapper" data-main-hero-slides></div>
+              </div>
+            </div>
+          </div>
+          <!--// sub_visual -->
+
+          <div class="sub_cont">
+            <!-- ── 인사말 (원본 about.html .about_wide_bnr) ────── -->
+            <div class="about_wide_bnr">
+              <div class="sub_title_box">
+                <h3 data-property-name-en></h3>
+                <p data-main-welcome-lead></p>
+              </div>
+              <div class="img_box inner" data-main-welcome-image></div>
+              <div class="txt_box inner">
+                <strong data-main-welcome-title>
+                  Welcome to
+                  <span class="tpl-slot" data-property-name-en></span>
+                </strong>
+                <p data-main-welcome-text></p>
+              </div>
+            </div>
+
+            <!-- ── 특장점 (원본 about.html .about_img_wrap) ────── -->
+            <!-- .box 는 about[] 블록 수만큼 매퍼가 생성한다. 홀/짝으로 좌우가 교차한다
+                 (style.css 의 .about_img_wrap .box:nth-of-type(2n) 참고). -->
+            <div class="about_img_wrap inner" data-main-about-wrap>
+              <div class="sub_title_box">
+                <h4>SOMETHING SPECIAL</h4>
+                <p data-main-about-lead></p>
+              </div>
+              <div data-main-about-list></div>
+            </div>
+
+            <!-- ── 특장점 마지막 항목 (원본 about.html .about_img_list) ── -->
+            <!-- data-* : data-main-about-photos (about[] 마지막 블록, 사진 2장 이상일 때만 노출)
+                 사진 최대 3장을 가로로 놓고 아래에 제목/설명. 기본 숨김, 매퍼가 푼다. -->
+            <div class="about_img_list inner" data-main-about-photos style="display: none">
+              <ul data-main-about-photos-list></ul>
+              <strong data-main-about-photos-title></strong>
+              <p data-main-about-photos-text></p>
+            </div>
+          </div>
+          <!--// sub_cont -->
+        </section>
+      </div>
+      <!--// container -->
+
+      <div id="footer-wrap"></div>
+    </div>
+
+    <div id="popup-container"></div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/image-helpers.js"></script>
+    <script src="js/preview-handler.js"></script>
+    <script src="js/data-mapper/core/base-mapper.js"></script>
+    <script src="js/data-mapper/pages/header-footer-mapper.js"></script>
+    <script src="js/data-mapper/pages/main-mapper.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/pages/main.js"></script>
+    <script src="js/popup.js"></script>
+  </body>
+</html>

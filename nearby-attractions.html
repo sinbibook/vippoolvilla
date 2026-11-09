@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      html.tpl-loading body {
+        opacity: 0;
+      }
+      body {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.add('tpl-loading');
+      window.__tplReveal = function () {
+        document.documentElement.classList.remove('tpl-loading');
+      };
+      setTimeout(function () {
+        window.__tplReveal && window.__tplReveal();
+      }, 3000);
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <title data-page-title>가평 남이섬 더VIP풀빌라</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" type="text/css" href="styles/theme.css" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/popup.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="가평 남이섬 더VIP풀빌라" />
+  <meta property="og:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta property="og:url" content="https://vippoolvilla.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="가평 남이섬 더VIP풀빌라" />
+  <meta name="twitter:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta name="naver-site-verification" content="464cdc551aa2c483696e577a5351478450e281f4" />
+  <meta name="google-site-verification" content="pmOUDndJK3_7doOSTwl-WRJtJ4mlPXEUvY9OvMMrHKk" />
+</head>
+
+  <body oncontextmenu="return false;" onselectstart="return false" ondragstart="return false;">
+    <div id="wrap">
+      <div id="header-wrap"></div>
+
+      <div id="container">
+        <section id="content" class="sub5_1 sub_travel">
+          <div class="sub_visual_wide" data-nearby-hero>
+            <div class="sub_location_wrap">
+              <h3>TRAVEL</h3>
+              <ul class="location_box">
+                <li>홈</li>
+                <li>TRAVEL</li>
+                <li><a href="./nearby-attractions.html">주변여행지</a></li>
+              </ul>
+              <ul class="cate_box">
+                <li class="on"><a href="./nearby-attractions.html">주변여행지</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="sub_cont">
+            <div class="sub_title_box">
+              <h3 data-nearby-title>TOURIST SPOT</h3>
+              <p data-nearby-description></p>
+            </div>
+            <div class="travel_list inner">
+              <ul data-nearby-list></ul>
+            </div>
+          </div>
+          <!--// sub_cont -->
+        </section>
+      </div>
+      <!--// container -->
+
+      <div id="footer-wrap"></div>
+    </div>
+
+    <div id="popup-container"></div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/image-helpers.js"></script>
+    <script src="js/preview-handler.js"></script>
+    <script src="js/data-mapper/core/base-mapper.js"></script>
+    <script src="js/data-mapper/pages/header-footer-mapper.js"></script>
+    <script src="js/data-mapper/pages/nearby-attractions-mapper.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/popup.js"></script>
+  </body>
+</html>

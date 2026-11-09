@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      html.tpl-loading body {
+        opacity: 0;
+      }
+      body {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.add('tpl-loading');
+      window.__tplReveal = function () {
+        document.documentElement.classList.remove('tpl-loading');
+      };
+      setTimeout(function () {
+        window.__tplReveal && window.__tplReveal();
+      }, 3000);
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <title data-page-title>가평 남이섬 더VIP풀빌라 - 시설안내</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" type="text/css" href="styles/theme.css" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/popup.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="가평 남이섬 더VIP풀빌라 - 시설안내" />
+  <meta property="og:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta property="og:url" content="https://vippoolvilla.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="가평 남이섬 더VIP풀빌라 - 시설안내" />
+  <meta name="twitter:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta name="naver-site-verification" content="464cdc551aa2c483696e577a5351478450e281f4" />
+  <meta name="google-site-verification" content="pmOUDndJK3_7doOSTwl-WRJtJ4mlPXEUvY9OvMMrHKk" />
+</head>
+
+  <body oncontextmenu="return false;" onselectstart="return false" ondragstart="return false;">
+    <div id="wrap">
+      <div id="header-wrap"></div>
+
+      <div id="container">
+        <!-- 원본 special1~6.html → facility.html?id= 한 파일로 합쳤다. -->
+        <section id="content" class="sub3_2 sub_special sub_special_detail">
+          <!-- ── 히어로 (시설 사진 슬라이더) ─────────────────── -->
+          <div class="sub_visual">
+            <div class="sub_location_wrap">
+              <em data-property-name-en></em>
+              <h3 data-facility-name></h3>
+              <p data-facility-caption></p>
+              <!-- 원본 맨 앞의 '미리보기'(special.html) li 는 뺐다.
+                   우리 템플릿에는 시설 목록 페이지가 없다. -->
+              <ul class="cate_box" data-facility-nav></ul>
+            </div>
+            <div class="arw_box">
+              <div
+                class="swiper-button-prev"
+                style="
+                  background: url(images/common/left_btn.png) no-repeat 100%;
+                  background-size: auto 100%;
+                "
+              >
+                prev
+              </div>
+              <div
+                class="swiper-button-next"
+                style="
+                  background: url(images/common/right_btn.png) no-repeat 100%;
+                  background-size: auto 100%;
+                "
+              >
+                next
+              </div>
+            </div>
+            <div class="visual_box">
+              <div class="swiper-container">
+                <div class="swiper-wrapper" data-facility-hero-slides></div>
+              </div>
+            </div>
+          </div>
+          <!--// sub_visual -->
+
+          <div class="sub_cont">
+            <!-- ── 시설 소개 배너 ─────────────────────────────── -->
+            <!-- 이 블록의 문구만 숙소마다 다르다 (아래 .special_btm_bnr 은 고정). -->
+            <div class="special_top_bnr inner">
+              <div class="sub_title_box">
+                <h4 data-facility-no></h4>
+              </div>
+              <div class="img" data-facility-bnr-image></div>
+              <div class="txt">
+                <strong data-facility-title></strong>
+                <p data-facility-description></p>
+              </div>
+            </div>
+
+            <!-- ── 하단 배너 (영문 고정 문구, 사진 2장만 매핑) ─── -->
+            <div class="special_btm_bnr inner">
+              <ul>
+                <li>
+                  <div class="img" data-facility-btm-image="0"></div>
+                  <div class="txt">
+                    <strong>Something Special</strong>
+                    <p>
+                      All seasons of the year are beautiful here. this place is give you a gift for
+                      your life.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="txt">
+                    <p>
+                      Stay with your beloved companion In a
+                      <br />
+                      clean, cozy Pension. Enjoy a happy moment
+                      <br />
+                      with your companion.
+                    </p>
+                  </div>
+                  <div class="img" data-facility-btm-image="1"></div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- ── 하단 시설 목록 (슬라이더) ───────────────────── -->
+            <div class="main_special">
+              <div class="title_box inner">
+                <h3>SPECIAL</h3>
+                <p data-facility-list-lead></p>
+              </div>
+              <div class="swiper-container">
+                <div class="swiper-wrapper" data-facility-list-slides></div>
+              </div>
+              <div class="arw_box">
+                <div class="swiper-button-prev">
+                  <img src="images/common/spe_le.png" alt="prev" />
+                </div>
+                <div class="swiper-button-next">
+                  <img src="images/common/spe_ri.png" alt="next" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--// sub_cont -->
+        </section>
+      </div>
+      <!--// container -->
+
+      <div id="footer-wrap"></div>
+    </div>
+
+    <div id="popup-container"></div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/image-helpers.js"></script>
+    <script src="js/preview-handler.js"></script>
+    <script src="js/data-mapper/core/base-mapper.js"></script>
+    <script src="js/data-mapper/pages/header-footer-mapper.js"></script>
+    <script src="js/data-mapper/pages/facility-mapper.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/pages/facility.js"></script>
+    <script src="js/popup.js"></script>
+  </body>
+</html>

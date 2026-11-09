@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      html.tpl-loading body {
+        opacity: 0;
+      }
+      body {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.add('tpl-loading');
+      window.__tplReveal = function () {
+        document.documentElement.classList.remove('tpl-loading');
+      };
+      setTimeout(function () {
+        window.__tplReveal && window.__tplReveal();
+      }, 3000);
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <title data-page-title>가평 남이섬 더VIP풀빌라 - 객실안내</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" type="text/css" href="styles/theme.css" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/popup.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="가평 남이섬 더VIP풀빌라 - 객실안내" />
+  <meta property="og:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta property="og:url" content="https://vippoolvilla.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="가평 남이섬 더VIP풀빌라 - 객실안내" />
+  <meta name="twitter:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta name="naver-site-verification" content="464cdc551aa2c483696e577a5351478450e281f4" />
+  <meta name="google-site-verification" content="pmOUDndJK3_7doOSTwl-WRJtJ4mlPXEUvY9OvMMrHKk" />
+</head>
+
+  <body oncontextmenu="return false;" onselectstart="return false" ondragstart="return false;">
+    <div id="wrap">
+      <div id="header-wrap"></div>
+
+      <div id="container">
+        <!-- 원본 room.html?room_id= (sub3_2). 목록은 layout-map.html 이 가져갔다. -->
+        <section id="content" class="sub3_2 sub_room sub_room_detail">
+          <!-- ── 히어로 (객실 사진 슬라이더) ─────────────────── -->
+          <div class="sub_visual">
+            <div class="sub_location_wrap">
+              <em data-property-name-en></em>
+              <h3 data-room-name></h3>
+              <p data-room-structure></p>
+              <ul class="cate_box" data-room-nav>
+                <li><a href="./layout-map.html">미리보기</a></li>
+              </ul>
+            </div>
+            <div class="arw_box">
+              <div
+                class="swiper-button-prev"
+                style="
+                  background: url(images/common/left_btn.png) no-repeat 100%;
+                  background-size: auto 100%;
+                "
+              >
+                prev
+              </div>
+              <div
+                class="swiper-button-next"
+                style="
+                  background: url(images/common/right_btn.png) no-repeat 100%;
+                  background-size: auto 100%;
+                "
+              >
+                next
+              </div>
+            </div>
+            <div class="visual_box">
+              <div class="swiper-container">
+                <div class="swiper-wrapper" data-room-hero-slides></div>
+              </div>
+            </div>
+          </div>
+          <!--// sub_visual -->
+
+          <div class="sub_cont">
+            <!-- ── 객실 정보 표 ───────────────────────────────── -->
+            <div class="table_wrap inner">
+              <div class="sub_title_box">
+                <h4>ROOMS INFO</h4>
+              </div>
+              <div class="table_box">
+                <!-- PC: 평형 포함 5열 -->
+                <div class="price_table for_pc">
+                  <table cellspacing="0" cellpadding="0" class="table_default">
+                    <thead>
+                      <tr>
+                        <th style="width: 15%">객실명</th>
+                        <th style="width: 5%">기준</th>
+                        <th style="width: 5%">최대</th>
+                        <th style="width: 20%">유형</th>
+                        <th style="width: 20%">평형</th>
+                      </tr>
+                    </thead>
+                    <tbody data-room-table-pc></tbody>
+                  </table>
+                  <ul class="table_text" data-room-amenities></ul>
+                </div>
+                <!-- 모바일: thead 없이 첫 tr 이 머리글, 평형 제외 4열 -->
+                <div class="price_table for_m">
+                  <table cellspacing="0" cellpadding="0" class="table_default">
+                    <tbody data-room-table-m></tbody>
+                  </table>
+                  <ul class="table_text" data-room-amenities></ul>
+                </div>
+                <div class="btn_wrap">
+                  <a href="#!" target="_blank" class="btn_reserve" data-booking-link>예약하기</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- ── 상세 배너 3종 ──────────────────────────────── -->
+            <!-- 문구는 두 원본이 완전히 같은 영문 고정 문구다(숙소명도 안 들어간다).
+                 매핑하는 것은 사진 5장뿐이다. -->
+            <div class="room_top_bnr">
+              <ul class="inner">
+                <li>
+                  <div class="img" data-room-bnr-image="0"></div>
+                  <div class="txt">
+                    <strong>Rooms Detail</strong>
+                    <p>
+                      With beautiful rooms and clean and hygienic care, We will add healing and
+                      relaxation to your trip.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="txt">
+                    <p>
+                      All seasons of the year are beautiful here. this place is
+                      <br />
+                      give you a gift for your life.
+                    </p>
+                  </div>
+                  <div class="img" data-room-bnr-image="1"></div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="room_wide_bnr">
+              <div class="img" data-room-bnr-image="2"></div>
+              <div class="txt">
+                <strong>
+                  Clean &amp; Cozy,
+                  <br />
+                  Healing
+                  <br />
+                  Pension
+                </strong>
+                <p>
+                  Stay with your beloved companion
+                  <br />
+                  In a clean, cozy Pension.
+                  <br />
+                  Enjoy a happy moment with your companion.
+                </p>
+              </div>
+            </div>
+
+            <div class="room_txt_bnr inner">
+              <ul>
+                <li data-room-bnr-image="3"></li>
+                <li data-room-bnr-image="4"></li>
+              </ul>
+              <div class="txt">
+                <strong>Place For You</strong>
+                <p>
+                  All seasons of the year are beautiful here. this place is
+                  <br />
+                  give you a gift for your life.
+                </p>
+              </div>
+
+              <!-- ── 객실 평면도 ────────────────────────────────
+                   ⚠️ 평면도가 없으면 제목까지 **영역째 숨긴다.** 부가 정보라
+                      placeholder 를 세우면 안내 문구만 덩그러니 남는다.
+                      (layout-map 의 배치도는 그 페이지의 본 목적이라 반대) -->
+              <div class="table_wrap inner" data-room-floorplan>
+                <div class="sub_title_box" style="text-align: center">
+                  <h4>객실 평면도</h4>
+                </div>
+                <div class="box sub_inner" data-room-floorplan-images></div>
+              </div>
+            </div>
+
+            <!-- ── 하단 객실 목록 (3열 슬라이더) ───────────────── -->
+            <div class="main_room inner">
+              <div class="title_box">
+                <h3>ROOMS LIST</h3>
+                <p data-room-list-lead></p>
+              </div>
+              <div class="room_list">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper" data-room-list-slides></div>
+                </div>
+              </div>
+              <div class="arw_box">
+                <div class="swiper-button-prev">
+                  <img src="images/common/spe_le.png" alt="prev" />
+                </div>
+                <div class="swiper-button-next">
+                  <img src="images/common/spe_ri.png" alt="next" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--// sub_cont -->
+        </section>
+      </div>
+      <!--// container -->
+
+      <div id="footer-wrap"></div>
+    </div>
+
+    <div id="popup-container"></div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/image-helpers.js"></script>
+    <script src="js/preview-handler.js"></script>
+    <script src="js/data-mapper/core/base-mapper.js"></script>
+    <script src="js/data-mapper/pages/header-footer-mapper.js"></script>
+    <script src="js/data-mapper/pages/room-mapper.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/pages/room.js"></script>
+    <script src="js/popup.js"></script>
+  </body>
+</html>

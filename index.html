@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      html.tpl-loading body {
+        opacity: 0;
+      }
+      body {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.add('tpl-loading');
+      window.__tplReveal = function () {
+        document.documentElement.classList.remove('tpl-loading');
+      };
+      setTimeout(function () {
+        window.__tplReveal && window.__tplReveal();
+      }, 3000);
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <title data-page-title>가평 남이섬 더VIP풀빌라 - 홈</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" type="text/css" href="styles/theme.css" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/popup.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="가평 남이섬 더VIP풀빌라 - 홈" />
+  <meta property="og:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta property="og:url" content="https://vippoolvilla.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="가평 남이섬 더VIP풀빌라 - 홈" />
+  <meta name="twitter:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta name="naver-site-verification" content="464cdc551aa2c483696e577a5351478450e281f4" />
+  <meta name="google-site-verification" content="pmOUDndJK3_7doOSTwl-WRJtJ4mlPXEUvY9OvMMrHKk" />
+</head>
+
+  <body oncontextmenu="return false;" onselectstart="return false" ondragstart="return false;">
+    <div id="wrap">
+      <div id="header-wrap"></div>
+
+      <div id="container">
+        <section id="content" class="main">
+          <!-- ── 인트로 영상 밴드 ────────────────────────────
+               원본(thesharpps.com)은 히어로 **위**에 `<video autoplay muted playsinline>`
+               한 장을 통째로 얹는다. `.vimeoWrap` 에는 CSS 규칙이 하나도 없어서
+               `<video width="100%">` 가 그대로 문서 흐름에 놓이는 밴드다.
+               ⚠️ F/KIDS1/KIDS3 와 동일하게 `signature` 블록의 videos/mediaType 을 쓴다.
+                  `signature.title`/`description`/`images` 는 그대로 `.main_reserve`
+                  오시는길 블록이 쓰므로, 이 밴드는 같은 블록의 videos/mediaType 서브필드만
+                  겸용한다 — 히어로(`hero`)는 영상 유무와 무관하게 항상 별도 영역이다.
+               ⚠️ `mediaType` 이 'video' 일 때만 노출한다(image/video 택일).
+               ⚠️ 정본(jd38.kr)/대조(더파란.kr) 둘 다 이 밴드가 없다 — 영상 없는
+                  숙소가 정상 상태이므로 기본은 숨김이다. -->
+          <!-- data-* : data-index-hero-video-wrap / -video (signature.videos[0], mediaType==='video') -->
+          <!-- 기본 숨김 — 매퍼가 돌기 전 빈 플레이어(재생 버튼 · 0:00)가 번쩍이지 않게 한다.
+               영상이 있을 때만 mapIntroVideo() 가 display 를 푼다. -->
+          <div class="vimeoWrap" data-index-hero-video-wrap style="display: none">
+            <video
+              data-index-hero-video
+              width="100%"
+              controls
+              autoplay
+              muted
+              playsinline
+              preload="none"
+            ></video>
+          </div>
+
+          <!-- ── 히어로 ──────────────────────────────────────── -->
+          <div class="main_visual">
+            <div class="visual_txt">
+              <!-- 원본: `Welcome to <em>JD38</em> <span>Pension</span>` 3줄.
+                   마지막 줄의 업종어(Pension / Poolvilla …)는 **가져오지 않는다.**
+                   영문 숙소명(nameEn)이 이미 "… Pension" 으로 끝나 같은 단어가
+                   두 번 나오고, 업종은 숙소마다 달라 고정 문구로 둘 수 없다.
+                   style.css 의 `.visual_txt` bottom 값 5개를 그 한 줄 높이만큼
+                   올려 숙소명이 히어로 사진 위에 그대로 남도록 맞췄다. -->
+              <strong>
+                Welcome to
+                <em data-property-name-en></em>
+              </strong>
+              <p data-index-hero-description></p>
+            </div>
+            <div class="arw_box">
+              <div
+                class="swiper-button-prev"
+                style="
+                  background: url(images/common/left_btn.png) no-repeat 0 0;
+                  background-size: auto 100%;
+                "
+              >
+                prev
+              </div>
+              <div
+                class="swiper-button-next"
+                style="
+                  background: url(images/common/right_btn.png) no-repeat 100%;
+                  background-size: auto 100%;
+                "
+              >
+                next
+              </div>
+            </div>
+            <a href="#" class="scroll_down">
+              <img src="images/common/scroll_down.png" alt="스크롤" />
+            </a>
+            <div class="visual_box">
+              <div class="swiper-container">
+                <div class="swiper-wrapper" data-index-hero-slides></div>
+              </div>
+            </div>
+          </div>
+          <!--// main_visual -->
+
+          <!-- ── 부대시설 ────────────────────────────────────── -->
+          <div class="main_special">
+            <div class="title_box inner">
+              <h3>SPECIAL</h3>
+              <p data-index-special-description></p>
+            </div>
+            <div class="swiper-container">
+              <div class="swiper-wrapper" data-index-special-list></div>
+            </div>
+            <div class="arw_box">
+              <div class="swiper-button-prev">
+                <img src="images/common/spe_le.png" alt="prev" />
+              </div>
+              <div class="swiper-button-next">
+                <img src="images/common/spe_ri.png" alt="next" />
+              </div>
+            </div>
+          </div>
+          <!--// main_special -->
+
+          <!-- ── 객실 ────────────────────────────────────────── -->
+          <div class="main_room inner">
+            <div class="title_box">
+              <h3>ROOMS LIST</h3>
+              <p data-index-room-description></p>
+            </div>
+            <div class="room_list">
+              <div class="swiper-container">
+                <div class="swiper-wrapper" data-index-room-list></div>
+              </div>
+            </div>
+            <div class="arw_box">
+              <div class="swiper-button-prev">
+                <img src="images/common/spe_le.png" alt="prev" />
+              </div>
+              <div class="swiper-button-next">
+                <img src="images/common/spe_ri.png" alt="next" />
+              </div>
+            </div>
+          </div>
+          <!--// main_room -->
+
+          <!-- ── 전경 ────────────────────────────────────────── -->
+          <div class="main_landscape">
+            <div class="title_box inner">
+              <h3>LANDSCAPE</h3>
+              <p data-index-landscape-description></p>
+            </div>
+            <div class="landscape_box">
+              <div class="img_box" data-index-landscape-image></div>
+              <div class="txt_box">
+                <!-- 원본: `JD38<br>Watching Scenery` — 앞줄만 영문 숙소명이다
+                     data-index-landscape-title : essence.title 이 있으면 통째로 바꾸고(줄바꿈 유지),
+                     비면 아래 원본 문구 그대로 둔다 -->
+                <strong data-index-landscape-title>
+                  <span class="tpl-slot" data-property-name-en></span>
+                  <br />
+                  Watching Scenery
+                </strong>
+                <p data-index-landscape-text></p>
+                <a href="./main.html" class="btn_more">VIEW MORE</a>
+              </div>
+            </div>
+          </div>
+          <!--// main_landscape -->
+
+          <!-- ── 이용안내 / 오시는길 ─────────────────────────── -->
+          <div class="main_reserve">
+            <div class="box inner">
+              <div class="img" data-index-reserve-image></div>
+              <div class="txt">
+                <h3>
+                  Reservation
+                  <br />
+                  Guide
+                </h3>
+                <p data-index-reserve-text></p>
+                <a href="./reservation.html" class="btn_more">이용안내 확인</a>
+              </div>
+            </div>
+            <div class="box inner">
+              <div class="img" data-index-directions-image></div>
+              <div class="txt">
+                <h3>Directions</h3>
+                <p data-index-directions-text></p>
+                <a href="./directions.html" class="btn_more">오시는길 확인</a>
+              </div>
+            </div>
+            <div class="reserve_bg" data-index-reserve-bg></div>
+          </div>
+          <!--// main_reserve -->
+        </section>
+      </div>
+      <!--// container -->
+
+      <div id="footer-wrap"></div>
+    </div>
+
+    <div id="popup-container"></div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/image-helpers.js"></script>
+    <script src="js/preview-handler.js"></script>
+    <script src="js/data-mapper/core/base-mapper.js"></script>
+    <script src="js/data-mapper/pages/header-footer-mapper.js"></script>
+    <script src="js/data-mapper/pages/index-mapper.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/pages/index.js"></script>
+    <script src="js/popup.js"></script>
+  </body>
+</html>

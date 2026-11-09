@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      html.tpl-loading body {
+        opacity: 0;
+      }
+      body {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.add('tpl-loading');
+      window.__tplReveal = function () {
+        document.documentElement.classList.remove('tpl-loading');
+      };
+      setTimeout(function () {
+        window.__tplReveal && window.__tplReveal();
+      }, 3000);
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <title data-page-title>가평 남이섬 더VIP풀빌라</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" type="text/css" href="styles/theme.css" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/popup.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="가평 남이섬 더VIP풀빌라" />
+  <meta property="og:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta property="og:url" content="https://vippoolvilla.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="가평 남이섬 더VIP풀빌라" />
+  <meta name="twitter:description" content="가평 더 VIP풀빌라, 남이섬 리버뷰와 함께하는 프라이빗 힐링과 아름다운 일출·일몰을 감상하며 풀빌라 수영장에서 잊지 못할 휴식을 만끽하세요." />
+  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/03/19/KIqlUZGOwgFy.jpg" />
+  <meta name="naver-site-verification" content="464cdc551aa2c483696e577a5351478450e281f4" />
+  <meta name="google-site-verification" content="pmOUDndJK3_7doOSTwl-WRJtJ4mlPXEUvY9OvMMrHKk" />
+</head>
+
+  <body oncontextmenu="return false;" onselectstart="return false" ondragstart="return false;">
+    <div id="wrap">
+      <div id="header-wrap"></div>
+
+      <div id="container">
+        <!-- 원본 room.html 목록(sub2_1). 객실 상세(room.html?room_id=)와 파일을 나눴다. -->
+        <section id="content" class="sub2_1 sub_room">
+          <!-- ── 서브 히어로 (배경 1장, 슬라이더 아님) ────────── -->
+          <div class="sub_visual_wide" data-layoutmap-hero>
+            <div class="sub_location_wrap">
+              <h3>ROOMS</h3>
+              <ul class="location_box">
+                <li>홈</li>
+                <li>ROOMS</li>
+                <li><a href="./layout-map.html">미리보기</a></li>
+              </ul>
+              <div class="sub_cate_wrap">
+                <div class="sub_inner">
+                  <ul class="cate_box" data-layoutmap-room-nav>
+                    <li class="on"><a href="./layout-map.html">미리보기</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub_cont">
+            <div class="sub_title_box">
+              <h3 data-layoutmap-title>PREVIEW</h3>
+              <p data-layoutmap-description></p>
+            </div>
+
+            <!-- ── 배치도 (원본 .wide_img > img 한 장) ─────────── -->
+            <!-- 숙소에 따라 동/층별로 여러 장을 올리므로 매퍼가 세로로 쌓는다. -->
+            <div class="wide_img inner" data-layoutmap-images></div>
+
+            <!-- ── 객실 목록 ──────────────────────────────────── -->
+            <!-- ⚠️ 이 페이지의 객실 목록은 **슬라이더가 아니다.**
+                 원본 custom.js 는 sub2_1 에 Swiper 를 초기화하지 않고,
+                 style.css 가 .sub2_1 에서 .swiper-wrapper{display:block} +
+                 .swiper-slide{float:left; width:calc(50% - 2.5%); opacity:1!important}
+                 로 2열 그리드를 만든다. .arw_box 도 display:none 이라 두지 않는다.
+                 그래서 js/pages/layout-map.js 자체가 없다. -->
+            <div class="main_room inner">
+              <div class="title_box">
+                <h3>ROOMS LIST</h3>
+                <p data-layoutmap-room-lead></p>
+              </div>
+              <div class="room_list">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper" data-layoutmap-room-slides></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--// sub_cont -->
+        </section>
+      </div>
+      <!--// container -->
+
+      <div id="footer-wrap"></div>
+    </div>
+
+    <div id="popup-container"></div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/image-helpers.js"></script>
+    <script src="js/preview-handler.js"></script>
+    <script src="js/data-mapper/core/base-mapper.js"></script>
+    <script src="js/data-mapper/pages/header-footer-mapper.js"></script>
+    <script src="js/data-mapper/pages/layout-map-mapper.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/popup.js"></script>
+  </body>
+</html>
